@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 900px;
+    background-color:
+    hsla(0, 0%, 100%, 0.75);
+    display: flex ;
+    margin:100px auto 0;
+    
+}
+.all{
+    width: 900px;
+}
+    body{
+        font-family:' Big Shoulders Display';
+        font-weight: 700;
+    }
+    h2 {
+        font-family: Lexend Deca;
+        font-weight: 400;
+    }
+
+
+.smedan {
+    padding: 30px;
+    background-color: hsl(31, 77%, 52%);
+    width: 33.34%;
+}
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    width: 33.34%;
+    padding: 30px;
+    
+}
+.luxury {
+    padding: 30px;
+    background-color: hsl(179, 100%, 13%);
+    width: 33.34%;
+}
+.luxury p{
+    width: 200px;
+}
+h2{
+    font-weight:900 ;
+    font-size: 30px;
+    color: aliceblue;
+    margin-bottom: 20px;
+
+}
+img{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+    font-family: Lexend Deca;
+    font-weight: 400;
+}
+button{
+    background-color: white;
+    width: auto;
+    margin-top: 20px;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+
+}
+
+@media screen and (max-width: 450px) {
+    .container{
+        width: 90%;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    .all{
+        width: 100%;
+        
+    }
+    
+}
